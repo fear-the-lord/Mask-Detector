@@ -44,3 +44,6 @@ If the user chooses option 1, then there are a few steps to follow:
 NOTE: After downloading the images, the user needs to go through the images ones and delete all the images which doesnot contain a face, or the images in which 
 the mask has not been placed correctly. This is an optional step, the user might not do it, but doing this ensures better accuracy. 
 
+My model gives an accuracy of about 96% on the training set and about 98% on the validation set. So I consider it a pretty decent model for mask detection. 
+The graph of loss vs accuracy on both training and test data looks like: 
+![plot](https://user-images.githubusercontent.com/35571958/108630831-e9b30880-748c-11eb-93d6-3160882f8c21.png)
