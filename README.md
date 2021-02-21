@@ -23,3 +23,24 @@ pip install -r requirements.txt
 ```bash
 python index.py
 ```
+
+## System Details
+This system is works in two different ways: 
+1. Mask Detection using Imagenet.
+2. Mask Detection using Dlib. 
+
+This system works in two different ways to provide the same result but with different accuracy. 
+In my case, the system designed using Dlib provides better accuracy than the system designed using Imagenet. 
+
+I have tried to keep the user intervention as less as possible while designing the system.
+The user will have two options to choose(mentioned above). 
+
+If the user chooses option 1, then there are a few steps to follow: 
+1. The dataset needs to be created, for this, I have used selenium, to scrap through the web and download images automatically. 
+2. Then all the images downloaded will be masked automatically using Face Detector and a separate dataset will be created. 
+3. After that the training will take place and a model will be created. 
+4. This model will be used to detect masks. 
+
+NOTE: After downloading the images, the user needs to go through the images ones and delete all the images which doesnot contain a face, or the images in which 
+the mask has not been placed correctly. This is an optional step, the user might not do it, but doing this ensures better accuracy. 
+
