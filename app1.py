@@ -12,11 +12,11 @@ def function2():
 	os.system("python rename_images.py")
 
 def function3(): 
-	os.system("python gif_image.py")
+	os.system("python mask_images.py")
 
 def function4(): 
 	root.destroy()
-	os.system("python mask_images.py")
+	os.system("python app.py")
 	
 root.title("MASK DETECTION SYSTEM")
 Label(root, text="MASK DETECTION SYSTEM",font=("times new roman",20),fg="black",bg="#c5cae9",height=2).grid(row=2,rowspan=2,columnspan=5,sticky=N+E+W+S,padx=5,pady=10)
