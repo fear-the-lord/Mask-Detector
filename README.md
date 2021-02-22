@@ -48,6 +48,8 @@ My model gives an accuracy of about 96% on the training set and about 98% on the
 The graph of Loss vs. Accuracy on both training and test data looks like: 
 ![plot](https://user-images.githubusercontent.com/35571958/108630831-e9b30880-748c-11eb-93d6-3160882f8c21.png)
 
+NOTE: <a href = "https://drive.google.com/file/d/1TFTb07JDoEd5H2hfXkamqiy47soL81or/view?usp=sharing">Link</a> to my model. You can download it and try detecting with it.
+
 Now, coming to the 2nd part, where I have worked with Dlib. This system is much more accurate and easy to understand. 
 The number of lines of code are pretty less. It's working is pretty simple, I have used the facial landmarks detector of dlib, 
 to detect the mouth. If the mouth is detected it means that the person is not wearing a mask.
