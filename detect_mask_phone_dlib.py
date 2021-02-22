@@ -15,7 +15,7 @@ detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor('models/shape_predictor_68_face_landmarks.dat')
 
 # Get the URL from IPWebcam
-url = "http://192.168.137.200:8080/shot.jpg"
+url = "http://<YOUR_IP_HERE>/shot.jpg"
 
 # Grab the indexes of the facial landamarks for the left and right eye respectively 
 (mstart, mend) = face_utils.FACIAL_LANDMARKS_IDXS["mouth"]
