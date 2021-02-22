@@ -68,6 +68,6 @@ Also, in order to toggle between the front and back camera, type the IP upto "ht
 ## Future Scope
 Looking forward to convert it to a mobile app, also looking to add more features like: Cough Detection, Sneeze Detection. 
 
-### References
+## References
 [1]Eye blink detection with OpenCV, Python, and dlib: https://www.pyimagesearch.com/2017/04/24/eye-blink-detection-opencv-python-dlib/
 [2]MobileNet and MobileNetV2: https://keras.io/api/applications/mobilenet/
