@@ -51,3 +51,16 @@ The graph of Loss vs. Accuracy on both training and test data looks like:
 Now, coming to the 2nd part, where I have worked with Dlib. This system is much more accurate and easy to understand. 
 The number of lines of code are pretty less. It's working is pretty simple, I have used the facial landmarks detector of dlib, 
 to detect the mouth. If the mouth is detected it means that the person is not wearing a mask.
+
+## Streaming using Phone Camera 
+We have used and Android App available for free in Play Store, named IP Webcam. It can be downloaded from this <a href = "https://play.google.com/store/apps/details?id=com.pas.webcam&hl=en_IN">link</a>. After downloading it, open the app and scroll down to the option <b>Start Server</b>. It will look like: <br>
+<img src = "https://user-images.githubusercontent.com/35571958/88623867-83673280-d0c3-11ea-9efd-63559024c0bd.jpg">
+
+After starting the server, an IP will be displayed on the screen. Open the file <b>android_cam.py</b>. In <b>line 36</b> put the given IP. 
+```python
+url = "http://<YOUR_IP_HERE>/shot.jpg"
+```
+<b>Also, make sure that the phone and PC/Laptop is connected to the same network.</b>
+
+Also, in order to toggle between the front and back camera, type the IP upto "http://<YOUR_IP_HERE>" in the search bar of yor browser and explore the page which will look like this: <br>
+<img src = "https://user-images.githubusercontent.com/35571958/88626505-5f5a2000-d0c8-11ea-88f0-e1d4481eb9d9.png">
