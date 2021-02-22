@@ -69,7 +69,7 @@ weightsPath = r"models\res10_300x300_ssd_iter_140000.caffemodel"
 faceNet = cv2.dnn.readNetFromCaffe(prototxtPath, weightsPath)
 
 # Get the URL from IPWebcam
-url = "http://192.168.137.85:8080/shot.jpg"
+url = "http://<YOUR_IP_HERE>/shot.jpg"
 
 # Load the face mask detector model that has been trained, from disk
 maskNet = load_model("models/mask_detector.model")
