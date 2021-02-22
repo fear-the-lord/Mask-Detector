@@ -64,3 +64,10 @@ url = "http://<YOUR_IP_HERE>/shot.jpg"
 
 Also, in order to toggle between the front and back camera, type the IP upto "http://<YOUR_IP_HERE>" in the search bar of yor browser and explore the page which will look like this: <br>
 <img src = "https://user-images.githubusercontent.com/35571958/88626505-5f5a2000-d0c8-11ea-88f0-e1d4481eb9d9.png">
+
+## Future Scope
+Looking forward to convert it to a mobile app, also looking to add more features like: Cough Detection, Sneeze Detection. 
+
+### References
+[1]Eye blink detection with OpenCV, Python, and dlib: https://www.pyimagesearch.com/2017/04/24/eye-blink-detection-opencv-python-dlib/
+[2]MobileNet and MobileNetV2: https://keras.io/api/applications/mobilenet/
